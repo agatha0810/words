@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+    <link rel="stylesheet" href="/style.css">
+
+    <!--
+    <style>
+        h1 { color: orange; }
+
+        #header{
+            font-size: 35px;
+            color: pink;
+        }
+
+        .meaning{
+            font-size: 15px;
+            color: green;
+        }
+
+        body{
+            background-color: yellow;
+        }
+
+        .classword{
+            color: blue;
+        }
+
+        a  {color: red; }
+
+        p  {color: violet; }
+    </style>
+    -->
+</head>
+
+<body>
+    <h1>Pierwszy etap mojego pierwszego słownika </h1>
+
+     <!--
+        <a href="/">Dodawanie słowa </a>
+        <a href="/user">Czytanie słowa </a>
+    -->
+
+    <a href="/addedword">Dodane słowa </a>
+
+    <form action="/givenword"> <!-- przejśćie do ścieżki /givenword po kliknięciu -->
+        <label class="classword">Jakie polskie słowo chcesz dodać do słownika? </label>
+        <input type="text" name="word"> <!-- zmienna o nazwie name-->
+        <input type="submit" value="Dodaj">
+    </form>
+
+</body>
+</html>

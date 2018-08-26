@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+    <link rel="stylesheet" href="/style.css">
+
+    <!--
+    <style>
+        h1 { color: orange; }
+
+        h2 { color: grey; }
+
+        #header{
+            font-size: 35px;
+            color: pink;
+        }
+
+        .meaning{
+            font-size: 15px;
+            color: green;
+        }
+
+        body{
+            background-color: yellow;
+        }
+
+        .classword{
+            color: blue;
+        }
+
+        a  {color: red; }
+
+        p  {color: violet; }
+    </style>
+    -->
+
+</head>
+
+<body>
+<h1>Etap pierwszy. </h1>
+<a href="/">Dodawanie słowa </a>
+
+<!--
+<form action="/givenword">
+-->
+<form action="/addedword"> <!-- przejśćie do ścieżki /givenword po kliknięciu -->
+    <label>Dodane </label><br>
+    <p>słowo po japońsku: </p>
+
+    <!--
+    nie czyta mi ponizszej zmiennej !!
+
+    <p th:text="${newword}"> zmienna </p>
+    -->
+
+    <p th:text="${givenword}"> kotrola addedword </p>
+
+</form>
+
+</body>
+</html>

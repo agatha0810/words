@@ -1,0 +1,23 @@
+h1 { color: orange; }
+
+h2 { color: grey; }
+
+#header{
+   font-size: 35px;
+   color: pink;
+}
+
+.description{
+    font-size: 15px;
+    color: green;
+}
+
+body{
+    background-color: yellow;
+}
+
+p  {color: blue; }
+
+a  {color: red; }
+
+p  {color: violet; }

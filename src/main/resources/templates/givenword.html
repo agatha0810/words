@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Dane</title>
+    <link rel="stylesheet" href="/style.css">
+
+    <!--
+    <style>
+        h1 { color: orange; }
+
+        h2 { color: grey; }
+
+        #header{
+            font-size: 35px;
+            color: pink;
+        }
+
+        .meaning{
+            font-size: 15px;
+            color: green;
+        }
+
+        body{
+            background-color: yellow;
+        }
+
+        .classword{
+            color: blue;
+        }
+
+        a  {color: red; }
+
+        p  {color: violet; }
+    </style>
+    -->
+</head>
+
+<body>
+<h1>Etap pierwszy: </h1>
+<h2>Czytania: </h2>
+<a href="/">Dodawanie słowa </a>
+<a href="/addedword">Dodane słowa </a>
+
+<form action="/addedword" method="post"> <!-- przejście do ścieżki /addedword po kliknięciu -->
+    <label class="classword">Słowo po japońsku: </label>
+    <!-- Poniższe jeszcze niewykorzystane: -->
+    <input type="text" name="meaning"> <!-- zmienna o nazwie name-->
+    <label class="classword">Czytanie ONYOMI: </label>
+    <input type="text" name="onyomi"> <!-- zmienna o nazwie name-->
+    <label class="classword">Czytanie KUNYOMI </label>
+    <input type="text" name="kunyomi"> <!-- zmienna o nazwie name-->
+    <input type="submit" value="Dodaj">
+</form>
+</body>
+</html>
